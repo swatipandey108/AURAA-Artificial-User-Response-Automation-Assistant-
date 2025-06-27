@@ -1,4 +1,7 @@
-🔊 Voice-Controlled Desktop Assistant (J.A.R.V.I.S Alternative)
+🤖 AURAA - Artificial User Response & Automation Assistant
+
+🔊 Voice-Controlled Desktop Assistant
+
 This is a simple voice-controlled desktop assistant built with Python. It listens to your voice commands and performs tasks such as:
 
 Answering questions using ChatGPT (OpenAI API)
