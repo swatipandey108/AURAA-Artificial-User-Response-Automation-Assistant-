@@ -23,8 +23,6 @@ A powerful voice-controlled virtual assistant built in Python. **AURAA** mimics 
 ## 📦 Installation Guide
 
 ### 1. Clone the repository
-
-```bash
 git clone https://github.com/yourusername/AURAA.git
 cd AURAA
 2. Create and activate a virtual environment (recommended)
