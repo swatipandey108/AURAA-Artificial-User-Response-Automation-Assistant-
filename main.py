@@ -102,7 +102,7 @@ def system_status():
 
 if __name__ == '__main__':
     print("Welcome to Jarvis A.I")
-    say("Jarvis activated. Hello Swati ji!")
+    say("Jarvis activated. Hello Swati!")
 
     while True:
         query = takeCommand().lower()
