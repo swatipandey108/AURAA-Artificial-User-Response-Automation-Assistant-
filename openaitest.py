@@ -40,11 +40,11 @@ def takeCommand():
             print(f"User said: {query}")
             return query
         except Exception:
-            say("Some error occurred. Sorry Swati ji.")
+            say("Some error occurred. Sorry Swati.")
             return ""
 
 if __name__ == '__main__':
-    say("Hello Swati ji, I am Jarvis. How can I help you today?")
+    say("Hello Swati, I am Jarvis. How can I help you today?")
     chatStr = ""
 
     while True:
@@ -67,14 +67,14 @@ if __name__ == '__main__':
 
         # Play music
         elif "open music" in query.lower():
-            musicPath = "C:\\Users\\SWATI PANDEY\\Music\\sample.mp3"  # Update path if needed
+            musicPath = "C:\\Users\\SWATI PANDEY\\Music\\sample.mp3"  
             os.startfile(musicPath)
 
         # Tell time
         elif "the time" in query.lower():
             hour = datetime.datetime.now().strftime("%H")
             minute = datetime.datetime.now().strftime("%M")
-            say(f"Swati ji, time is {hour} bajke {minute} minutes.")
+            say(f"Swati, time is {hour} hours {minute} minutes.")
 
         # Open apps (you can customize these paths)
         elif "open notepad" in query.lower():
@@ -89,7 +89,7 @@ if __name__ == '__main__':
             say("Chat reset successfully.")
 
         elif "jarvis quit" in query.lower() or "exit" in query.lower():
-            say("Goodbye Swati ji!")
+            say("Goodbye Swati!")
             break
 
         else:
